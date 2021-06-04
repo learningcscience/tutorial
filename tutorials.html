@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel = "icon" href ="images/logo.png" type = "image/x-icon">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/style1.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+
+	<title> Food making tutorials - Tutorials </title>
+</head>
+	
+	<style>
+	div.navbar.clicked a {
+		display: block;
+		float: none;
+	}
+
+	</style>
+
+<body>
+
+<div class="navbar" id="nav">
+	<a href="index.html"><img src="images/logo.png" width="30"></a>
+	<a href="index.html"> Home </a>
+	<a href="tutorials.html" class="active"> Tutorials </a>
+	<a href="contact.html" class="inactive"> Contact </a>
+	<a href="about.html"> About </a>
+	<a href="javascript:void(0)" class="icon" onclick="Click()"><i class="fa fa-bars"></a></i>
+</div>
+
+
+
+<div class="account">
+	<a href="user.html">
+	<i class="fa fa-user"></i>
+	 <span class="msg ">1</span>
+	</a>
+
+</div>
+
+
+<div class="row">
+
+	<img src="images/cookman.jpg" width="380" class="col-6">
+
+	<div class="col-6 cook"><h2> Become a perfect <span class="section2">"Cookman"</span></h2> </div><br>
+		
+	<p>cooking means applying heat to food.<br> Whether the
+	     food is baked, <br>fried, sauteed, boiled, or grilled it's all cooking</p>
+	
+</div><br>
+
+	
+
+<div class="row tutorial">
+
+	<div class="col-6 pudding">
+		
+		<a href="chowmein.html"><img src="images/chowemin.jpg" width="400"><br><br>
+		<p class="t-text">  How to make Chow Mein </a></p>
+	</div>
+		
+	<div class="col-6 list">
+
+		 <a href="chicken.html"> <img src="images/chicken.jpg" width="405" height="300"><br><br>
+		<p class="t-text">How to make Fried Chicken </a></p>
+
+	</div>	
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="row tutorial">
+
+
+
+	<div class="col-6 pudding">
+		
+		<a href="r-pudding.html"><img src="images/pudding.jpg" width="400"><br><br>
+		<p class="t-text">  How to make Rice Pudding </a></p>
+	</div>
+		
+	<div class="col-6 list">
+
+		 <a href="khir.html"> <img src="images/khir.jpg" width="400"><br><br>
+		<p class="t-text">How to make Khir </a></p>
+
+	</div>
+
+
+</div>
+
+
+<br>
+<br>
+<br>
+
+
+
+
+<div class="row tutorial">
+
+
+
+	<div class="col-6 pudding">
+		
+		<a href="rice.html"><img src="images/rice.jpg" width="400"><br><br>
+		<p class="t-text">  How to make Rice  </a></p>
+	</div>
+		
+	<div class="col-6 list">
+
+		 <a href="curry.html"> <img src="images/curry.jpg" width="400" height="280"><br><br>
+		<p class="t-text">How to make Curry </a></p>
+
+	</div>
+	</div>
+
+
+
+
+
+
+	
+
+	<div id="out"></div><br>
+	<div class="more">
+	<button id="btn"> More items.. </button></div>
+	<br><br>
+
+
+
+
+
+
+
+
+
+	
+<div class="row">
+	<div class="footer">
+		<p class="ftext col-12">&copy; all rights reserved F-tutorial 2021 </p>
+
+	</div>
+</div>
+
+
+
+
+
+		<script>
+			function Click(){
+			let nav = document.getElementById("nav");
+				if(nav.className === "navbar"){
+				nav.className += " clicked";
+				}	
+				else{
+					nav.className = "navbar";	
+				}
+			}
+			document.getElementById("btn").addEventListener("click", function(){
+			document.getElementById("out").innerText = "No more !";
+	
+			});
+
+		</script>
+</body>
+</html>

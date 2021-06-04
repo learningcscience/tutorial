@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel = "icon" href ="images/logo.png" type = "image/x-icon">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/style1.css">
+
+	<link rel="stylesheet" href="css/style2.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+
+	<title> Food making tutorials  How to make curry</title>
+</head>
+	
+	<style>
+	div.navbar.clicked a {
+		display: block;
+		float: none;
+	}
+
+	</style>
+
+<body>
+
+<div class="navbar" id="nav">
+	<a href="index.html"><img src="images/logo.png" width="30"></a>
+	<a href="index.html"> Home </a>
+	<a href="tutorials.html" class="active"> Tutorials </a>
+	<a href="contact.html"> Contact </a>
+	<a href="#"> About </a>
+	<a href="javascript:void(0)" class="icon" onclick="Click()"><i class="fa fa-bars"></a></i>
+</div>
+
+
+
+<div class="account">
+	<a href="user.html">
+	<i class="fa fa-user"></i>
+	 <span class="msg ">1</span>
+	</a>
+
+</div>
+
+
+<div class="row">
+
+	<img src="images/cookman.jpg" width="400" class="col-6">
+
+	<div class="col-6 cook"><h2> Become a perfect <span class="section2">"Cookman"</span></h2> </div><br>
+		
+	<p>cooking means applying heat to food.<br> Whether the
+	     food is baked, <br>fried, sauteed, boiled, or grilled it's all cooking</p>
+	
+</div><br><br><br>
+
+
+	<div class="chowmein">		
+		<img src="images/curry.jpg" width="500"><br><br>
+		<p class="l-text"> Learn to make Curry </p><br><br>
+	</div>
+
+		<ol class="center">
+			<li> firstly heat 4 tsp oil and saute spices.  </li>
+
+			<li> saute 1 onion and 1 tsp ginger garlic paste. </li>
+
+			<li> further add spices and 1 tsp salt. ...   </li>
+
+			<li> add tomato puree and cook well.  </li>
+
+			<li> now add roasted mix vegetables and mix well. </li>
+
+			<li>  add 1/2 cup water and cook for another 10 minutes.</li>
+			
+			<li> Wait for few Min & you can  serve </li>
+		</ol>
+	
+	<br><br>
+	
+<div class="row">
+	<div class="footer">
+		<p class="ftext col-12">&copy; all rights reserved F-tutorial 2021 </p>
+
+	</div>
+</div>
+
+
+
+
+
+		<script>
+			function Click(){
+			let nav = document.getElementById("nav");
+				if(nav.className === "navbar"){
+				nav.className += " clicked";
+				}	
+				else{
+					nav.className = "navbar";	
+				}
+			}
+
+		</script>
+</body>
+</html>

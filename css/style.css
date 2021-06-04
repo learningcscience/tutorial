@@ -1,0 +1,254 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	font-family: 'Inter', sans-serif;	
+}
+	
+h1{
+	font-size: 3em;
+	letter-spacing: 1px;
+	color : #212738;
+}
+button{
+	border: none;
+	border-radius: 20px;
+	outline:none;
+	cursor: pointer;
+	font-size: 18px;
+	color: white;
+	padding: 10px 50px;
+	text-align: center;
+}
+button.learn{
+	background: #04AA6D;
+}
+.navbar {
+    	background:  #E4572E;
+    	padding: 20px;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 1;	
+}
+button.call{
+	background: #E4572E;
+}
+button:hover{
+	background:#04AA6D;
+	transition: .3s;
+}
+button.learn:hover{
+	background: #E4572E;
+}
+button.learn a{
+	color: white;
+	text-decoration: none;
+}
+.navbar a {
+    	text-decoration: none;
+  	color: white;
+   	padding: 20px;
+    	font-size: 20px;
+
+}
+.icon {
+    	color: white;
+    	font-size: 20px;
+	float: right;
+	display: none;	
+}
+p.t-text a {
+    	text-decoration: none;
+    	color: black;
+    	font-size: 28px;
+}
+[class*="col-"]{
+	float: left;
+	padding: 10px;
+}
+
+.cook h2{
+	margin-top: 30%;
+	font-size: 4em;
+}
+p{
+	font-size: 28px;
+}
+span.section2{
+	color: green;
+}
+p.ftext{
+	font-size: 20px;
+	text-align: center;
+}
+p.ftext.col-12 {
+    	background:  #E4572E;
+    	color: white;
+    	font-weight: normal;
+}
+a.active{
+	color: black;
+	font-weight: bold;
+}
+.account{
+	z-index: 99;
+	position: absolute;
+	bottom: 5%;
+	position: fixed;
+	right: 2%;
+}
+.account a{
+	text-decoration: none;
+}
+.account .msg{
+  	position: absolute;
+  	top: -9px;
+  	right: -8px;
+  	padding: 2px 8px;
+  	border-radius: 50%;
+  	background:#04AA6D;
+  	color: white;
+
+}
+i.fa.fa-user{
+	padding: 18px 20px;
+	border-radius: 50%;
+	background:  #E4572E;
+	color: white;
+}
+.container{
+	display: flex;
+	margin-bottom: 30px;
+	
+}
+i.fa.fa-envelope, i.fa.fa-lock{
+	font-size: 30px;
+}
+.container input{
+	width: 60%;
+	padding: 10px;
+	outline: none;
+	border: 1px solid #ccc;
+	border-left: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+.container input:focus{
+	border: 2px solid green;
+	transition: .1s;
+}
+h2{
+	font-size: 40px;
+}
+
+.in{
+	background: green;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	min-width: 50px;
+}
+::placeholder{
+	font-weight: bold;
+}
+h1{
+	text-align: center;
+}
+p.otext{
+	font-size: 20px;
+}
+.btn button{
+	background: green;
+	float: left;
+}
+.sub{
+	display: flex;
+}
+.sub input {
+    	width: 60%;
+	border:none;
+	outline: none;
+	padding:12px;
+}
+button.ribe {
+
+	border-radius: 0px;
+}
+.more{
+	text-align: center;
+}
+#out{
+	color: darkred;
+	text-align: center;
+	font-weight: bold;
+	background: #FF6347;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 700px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+
+	p{
+		text-align: center;
+		font-size: 22px;
+	}
+	button{
+		margin-top: 5%;
+	}
+	.cook h2{
+		margin: 0;
+		font-size: 40px;
+		text-align: center;
+	}
+	p.ftext.col-12 {
+		margin-top: 10%;
+	}
+	.nav a:not(:first-child){
+		display: none;
+	}
+	.navbar a:not(:first-child){
+			display:none;
+		}
+	.navbar{
+		position: relative;
+	}
+	div.navbar a.icon{	
+		float: none;
+		position: absolute;
+		top:0;
+		right:0;
+		display: block;
+	}
+	.form{
+		text-align: center;
+	}
+	.sub{
+		display: none;	
+	}
+
+
+}

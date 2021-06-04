@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel = "icon" href ="images/logo.png" type = "image/x-icon">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/style1.css">
+
+	<link rel="stylesheet" href="css/style2.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+
+	<title> Food making tutorials - Contact </title>
+</head>
+	
+	<style>
+	div.navbar.clicked a {
+		display: block;
+		float: none;
+	}
+	</style>
+
+<body>
+
+<div class="navbar" id="nav">
+	<a href="index.html"><img src="images/logo.png" width="30"></a>
+	<a href="index.html"> Home </a>
+	<a href="tutorials.html"> Tutorials </a>
+	<a href="contact.html" class="active"> Contact </a>
+	<a href="about.html"> About </a>
+	<a href="javascript:void(0)" class="icon" onclick="Click()"><i class="fa fa-bars"></a></i>
+</div>
+
+
+
+<div class="account">
+	<a href="user.html">
+	<i class="fa fa-user"></i>
+	 <span class="msg ">1</span>
+	</a>
+
+</div>
+
+
+
+	
+	<br><br><br><br>
+
+
+		<div class="row form">
+		<h1> Contact Us </h1><br><br><br>
+		<div class="first col-6">
+				<strong><p class="mail"> Our e-mail: f-tutorial@gmail.com <br><br>
+				<p class="mail"> Telephone: 304-733-9699</strong></p><br><br>
+				<p class="mail"> Phone Num: 9840297322</strong></p><br><br>
+				<p class="mail"> You also can contact we in following: </p><br><br>
+						<i class="fa fa-instagram"></i>&nbsp &nbsp
+						<i class="fa fa-facebook"></i>&nbsp &nbsp
+						<i class="fa fa-twitter"></i>&nbsp &nbsp<br><br>
+				
+			</div>
+
+
+			<div class="col-6 second">
+				<h2> Fill the form </h2>
+			<br>
+			      <label> Full Name </label><br>
+				<input type="text"placeholder="Enter username"><br><br>
+
+			      <label> Email</label><br>
+				<input type="email"placeholder="Enter email">
+			<br><br>
+			    <label> Message </label><br>
+			<textarea rows="6" cols="40"placeholder="Describe your issue"></textarea>
+			<br>
+
+
+			<button id="btn"> Send </button>
+			</div>
+
+
+		</div>
+	
+<div class="row ">
+	<div class="footer">
+		<p class="ftext col-12">&copy; all rights reserved F-tutorial 2021 </p>
+	</div>
+</div>
+
+
+
+
+
+		<script>
+			function Click(){
+			let nav = document.getElementById("nav");
+				if(nav.className === "navbar"){
+				nav.className += " clicked";
+				}	
+				else{
+					nav.className = "navbar";	
+				}
+			}
+
+
+		</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+
+.chowmein{
+	text-align: center;
+}
+
+p.l-text{
+	font-size: 40px;
+}
+button{
+	cursor: pointer;
+}
+
+ol.center li{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 15px;
+}
+ol{
+	width: fit-content;
+	margin: 0 auto;
+}
+p.mail{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.first{
+	text-align: center;
+}
+
+i.fa.fa-instagram,  i.fa.fa-twitter {
+    	font-size: 30px;
+    	color: white;
+    	background: #ef7215;
+    	padding: 10px;
+    	border-radius: 50%;
+}
+i.fa.fa-facebook{
+    	font-size: 30px;
+    	color: white;
+    	background: #ef7215;
+    	padding: 10px 15px;
+    	border-radius: 50%;	
+	
+}
+
+.fa.fa-twitter:hover{
+	background: black;
+	transition: .3s;
+
+}
+i.fa.fa-facebook:hover{
+	background: black;
+	transition: .3s;
+}
+i.fa.fa-instagram:hover{
+	background: black;
+	transition: .3s;
+}
+label{
+	font-weight: bold;
+}
+button{
+	background: #219e43;
+	padding:10px 30px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+::placeholder{
+	font-size: 14px;
+}
+.second input{
+	padding: 12px;
+	width: 60%;
+	border: 1px solid #bbb;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	border-radius: 10px;
+}
+input:focus::placeholder {
+	text-align: center;		
+	color: #219e43;
+	font-size: 16px;
+	transition: .3s;
+	font-weight: bold;
+}
+textarea{
+	width: 60%;
+	border: 1px solid #bbb;
+	outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
+	
+}
+textarea:focus::placeholder{
+	text-align: center;
+	color: green;
+	font-size: 16px;
+	font-weight: bold;
+	transition: .3s;
+}
+h3.ab-text {
+    	font-size: 3em;
+    	color: white;
+}
+p.simple-text{
+	color: white;
+	text-align: justify;
+	font-size: 20px;
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel = "icon" href ="images/logo.png" type = "image/x-icon">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+
+	<title> Food making tutorials - Home </title>
+
+
+</head>
+	
+	<style>
+	.imgcont{
+		background-image: url("images/cook.jpg");
+		background-position: center;
+		background-size:cover;
+		background-repeat: no-repeat;
+		padding: 20%;
+	}
+
+	div.navbar.clicked a {
+		display: block;
+		float: none;
+	}
+
+	</style>
+
+<body>
+
+<div class="navbar" id="nav">
+	<a href="#"><img src="images/logo.png" width="30"></a>
+	<a href="#"class="active"> Home </a>
+	<a href="tutorials.html"> Tutorials </a>
+	<a href="contact.html"> Contact </a>
+	<a href="about.html"> About </a>
+	<a href="javascript:void(0)" class="icon" onclick="Click()"><i class="fa fa-bars"></a></i>
+
+</div>
+
+
+<div class="account">
+	<a href="user.html">
+	<i class="fa fa-user"></i>
+	 <span class="msg ">1</span>
+	</a>
+
+</div>
+
+<div class="row">
+	<div class="imgcont col-12">
+		<h1> Discover the world through food </h1><br>
+		<a href="tutorials.html"><button class=" learn"> Learn to cook</a></button>&nbsp &nbsp &nbsp
+		<a href="contact.html"><button class="call"> Contact</button></a>
+	</div>
+</div>
+
+<div class="row">
+
+	<img src="images/cookman.jpg" width="400" class="col-6">
+
+	<div class="cook col-6"><h2> Become a perfect <span class="section2">"Cookman"</span></h2> </div><br>
+		
+	<p>cooking means applying heat to food.Whether the
+	     food is baked, fried, sauteed, boiled, or grilled it's all cooking</p>
+	
+</div>
+
+
+	
+<div class="row">
+	<div class="footer">
+		<p class="ftext col-12">&copy; all rights reserved F-tutorial 2021 </p>
+	</div>
+</div>
+
+
+
+
+		<script>
+			function Click(){
+			let nav = document.getElementById("nav");
+				if(nav.className === "navbar"){
+				nav.className += " clicked";
+				}	
+				else{
+					nav.className = "navbar";	
+				}
+			}
+
+		</script>
+</body>
+</html>
